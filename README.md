@@ -11,6 +11,14 @@
 * tqdm==4.62.3
 * pillow==8.4.0
 
+### Dataset Preparation
+
+* [cifar10 & cifar100](https://www.cs.toronto.edu/~kriz/cifar.html)
+
+* [ImageNet](http://image-net.org/index)
+
+* [iNaturalist2018](https://github.com/visipedia/inat_comp/tree/master/2018)
+
 ## Results and Models
 
 ### origin_PPL+CRI  
