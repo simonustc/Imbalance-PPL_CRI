@@ -21,6 +21,20 @@ Our code is based on [MisLAS](https://arxiv.org/pdf/2104.00466.pdf) and [RIDE](h
 
 * [iNaturalist2018](https://github.com/visipedia/inat_comp/tree/master/2018)
 
+## Training
+
+one GPU for Imbalance cifar10 & cifar100, two GPUs for ImageNet-LT, and eight GPUs iNaturalist2018.
+
+Backbone network can be resnet32 for Imbalance cifar10 & cifar100, resnet10 for ImageNet-LT, and resnet50 for iNaturalist2018.
+
+
+
+### origin_PPL+CRI:
+
+
+
+
+
 ## Results and Models
 
 ### origin_PPL+CRI  
