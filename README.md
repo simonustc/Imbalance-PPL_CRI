@@ -4,6 +4,13 @@
 
 ### Requirements
 
+* numpy==1.22.0  
+* python==3.9
+* pytorch==1.10.1
+* torchvision==0.11.2
+* tqdm==4.62.3
+* pillow==8.4.0
+
 ## Results and Models
 
 ### origin_PPL+CRI  
