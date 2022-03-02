@@ -1,5 +1,7 @@
 # Imbalanced Visual Rcongnition by PPL with CRI Loss
 
+Our code is based on [MisLAS](https://arxiv.org/pdf/2104.00466.pdf) and [RIDE](https://people.eecs.berkeley.edu/~xdwang/papers/RIDE.pdf) models.
+
 ## Installation
 
 ### Requirements
