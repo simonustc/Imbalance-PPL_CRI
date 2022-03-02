@@ -33,6 +33,14 @@ Backbone network can be resnet32 for Imbalance cifar10 & cifar100, resnet10 for 
 
 `python train.py --cfg ./config/cifar10/cifar10_CRI.yaml`
 
+#### ImageNet-LT:
+
+`python train.py --cfg ./config/imagenet/imagenet_CRI.yaml`
+
+#### ina2018:
+
+`python train.py --cfg ./config/ina2018/ina2018_CRI.yaml`
+
 
 
 ## Results and Models
