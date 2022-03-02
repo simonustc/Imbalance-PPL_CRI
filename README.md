@@ -21,6 +21,14 @@ Our code is based on [MisLAS](https://arxiv.org/pdf/2104.00466.pdf) and [RIDE](h
 
 * [iNaturalist2018](https://github.com/visipedia/inat_comp/tree/master/2018)
 
+For origin_PPL+CRI, change the `data_path` in `config/.../.yaml`
+
+For PPL+CRI multi experts:
+  
+1) change the `class ImbalanceCIFAR10DataLoader/data_dir` or `class ImbalanceCIFAR100DataLoader/data_dir` in `./data_loader/cifar_data_loaders.py`;
+2) change the `data_dir` and `txt_train_dir` in `./data_loader/imagenet_lt_loaders.py`;
+3) change the `data_dir` and `txt_train_dir` in `./data_loader/inaturalist_data_loaders.py`.
+
 ## Training
 
 one GPU for Imbalance cifar10 & cifar100, two GPUs for ImageNet-LT, and eight GPUs iNaturalist2018.
