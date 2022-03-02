@@ -27,11 +27,11 @@ one GPU for Imbalance cifar10 & cifar100, two GPUs for ImageNet-LT, and eight GP
 
 Backbone network can be resnet32 for Imbalance cifar10 & cifar100, resnet10 for ImageNet-LT, and resnet50 for iNaturalist2018.
 
+### origin_PPL+CRI
 
+#### Imbalance cifar10 & cifar100:
 
-### origin_PPL+CRI:
-
-
+`python train.py --cfg ./config/cifar10/cifar10_CRI.yaml`
 
 
 
