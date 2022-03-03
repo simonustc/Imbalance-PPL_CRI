@@ -21,6 +21,8 @@ Our code is based on [MisLAS](https://arxiv.org/pdf/2104.00466.pdf) and [RIDE](h
 
 * [iNaturalist2018](https://github.com/visipedia/inat_comp/tree/master/2018)
 
+[data_txt file Link](https://drive.google.com/drive/folders/1ssoFLGNB_TM-j4VNYtgx9lxfqvACz-8V?usp=sharing)
+
 For origin_PPL+CRI, change the `data_path` in `config/.../.yaml`
 
 For PPL+CRI multi experts:
