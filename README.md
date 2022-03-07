@@ -21,6 +21,16 @@ Our code is based on [MisLAS](https://arxiv.org/pdf/2104.00466.pdf) and [RIDE](h
 
 * [iNaturalist2018](https://github.com/visipedia/inat_comp/tree/master/2018)
 
+```
+dataset
+├── ImageNet_LT
+    ├── iNaturalist18_train.txt
+    ├── iNaturalist18_val.txt
+    ├── ImageNet_LT_train.txt
+    └── ImageNet_LT_val.txt
+
+```
+
 [data_txt file Link](https://drive.google.com/drive/folders/1ssoFLGNB_TM-j4VNYtgx9lxfqvACz-8V?usp=sharing)
 
 For CRI+PPW+PPmix, change the `data_path` in `config/.../.yaml`
