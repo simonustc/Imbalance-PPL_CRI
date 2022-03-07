@@ -21,7 +21,7 @@ Our code is based on [MisLAS](https://arxiv.org/pdf/2104.00466.pdf) and [RIDE](h
 
 * [iNaturalist2018](https://github.com/visipedia/inat_comp/tree/master/2018)
 
-For ImageNet-LT and 
+For ImageNet-LT and iNaturalist2018, please prepare data in the data directory
 ```
 datasets
 ├── data_txt
@@ -32,7 +32,7 @@ datasets
 
 ```
 
-[data_txt file Link](https://drive.google.com/drive/folders/1ssoFLGNB_TM-j4VNYtgx9lxfqvACz-8V?usp=sharing)
+and get the txt files from [data_txt file Link](https://drive.google.com/drive/folders/1ssoFLGNB_TM-j4VNYtgx9lxfqvACz-8V?usp=sharing)
 
 For CRI+PPW+PPmix, change the `data_path` in `config/.../.yaml`
 
