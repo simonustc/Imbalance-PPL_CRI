@@ -21,13 +21,14 @@ Our code is based on [MisLAS](https://arxiv.org/pdf/2104.00466.pdf) and [RIDE](h
 
 * [iNaturalist2018](https://github.com/visipedia/inat_comp/tree/master/2018)
 
+For ImageNet-LT and 
 ```
-dataset
-├── ImageNet_LT
+datasets
+├── data_txt
     ├── iNaturalist18_train.txt
     ├── iNaturalist18_val.txt
     ├── ImageNet_LT_train.txt
-    └── ImageNet_LT_val.txt
+    └── ImageNet_LT_test.txt
 
 ```
 
