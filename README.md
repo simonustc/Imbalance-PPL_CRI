@@ -1,4 +1,4 @@
-# Imbalanced Visual Rcongnition by PPL with CRI Loss
+# PPL with CRI Loss for Imbalanced Classification
 
 Our code is based on [MisLAS](https://arxiv.org/pdf/2104.00466.pdf) and [RIDE](https://people.eecs.berkeley.edu/~xdwang/papers/RIDE.pdf) models.
 
@@ -23,13 +23,10 @@ Our code is based on [MisLAS](https://arxiv.org/pdf/2104.00466.pdf) and [RIDE](h
 
 [data_txt file Link](https://drive.google.com/drive/folders/1ssoFLGNB_TM-j4VNYtgx9lxfqvACz-8V?usp=sharing)
 
-For origin_PPL+CRI, change the `data_path` in `config/.../.yaml`
+For CRI+PPW+PPmix, change the `data_path` in `config/.../.yaml`
 
-For PPL+CRI multi experts:
-  
-1) change the `class ImbalanceCIFAR10DataLoader/data_dir` or `class ImbalanceCIFAR100DataLoader/data_dir` in `./data_loader/cifar_data_loaders.py`;
-2) change the `data_dir` and `txt_train_dir` in `./data_loader/imagenet_lt_loaders.py`;
-3) change the `data_dir` and `txt_train_dir` in `./data_loader/inaturalist_data_loaders.py`.
+For CRI+ppw multi#, change the `data_loader:{data_dir} in `./config/...json`;
+
 
 ## Training
 
