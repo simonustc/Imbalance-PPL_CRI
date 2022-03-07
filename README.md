@@ -87,7 +87,7 @@ Backbone network can be resnet32 for Imbalance cifar10 & cifar100, resnet10 for 
 
 [Links to models](https://drive.google.com/drive/folders/1Dqh0Jcs-lqKv0BkEJmMX8JJwnhCL7mhx?usp=sharing)
 
-## More content to be updated
+
 
 
 
