@@ -34,9 +34,9 @@ datasets
 
 getting the txt files from [data_txt file Link](https://drive.google.com/drive/folders/1ssoFLGNB_TM-j4VNYtgx9lxfqvACz-8V?usp=sharing)
 
-For CRI+PPW+PPmix, change the `data_path` in `config/.../.yaml`
+For CRI+PPW+PPmix, change the `data_path` in `config/.../.yaml`;
 
-For CRI+ppw multi#, change the `data_loader:{data_dir} in `./config/...json`;
+For CRI+PPW#, change the `data_loader:{data_dir} in `./config/...json`.
 
 
 ## Training
@@ -45,7 +45,7 @@ one GPU for Imbalance cifar10 & cifar100, two GPUs for ImageNet-LT, and eight GP
 
 Backbone network can be resnet32 for Imbalance cifar10 & cifar100, resnet10 for ImageNet-LT, and resnet50 for iNaturalist2018.
 
-### origin_PPL+CRI
+### CRI+PPW+PPmix
 
 #### Imbalance cifar10 & cifar100:
 
@@ -61,7 +61,7 @@ Backbone network can be resnet32 for Imbalance cifar10 & cifar100, resnet10 for 
 
 `python train.py --cfg ./config/ina2018/ina2018_CRI.yaml`
 
-### PPL+CRI multi experts
+### CRI+PPW#
 
 #### Imbalance cifar10 & cifar100:
 
@@ -79,11 +79,11 @@ Backbone network can be resnet32 for Imbalance cifar10 & cifar100, resnet10 for 
 
 ## Results and Models
 
-### origin_PPL+CRI  
+### CRI+PPW+PPmix
 
 [Links to models](https://drive.google.com/drive/folders/1b932TjGm_-GcuN9Mq24aExk2uZK64LWy?usp=sharing)
 
-### PPL+CRI multi experts
+### CRI+PPW#
 
 [Links to models](https://drive.google.com/drive/folders/1Dqh0Jcs-lqKv0BkEJmMX8JJwnhCL7mhx?usp=sharing)
 
