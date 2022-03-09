@@ -77,6 +77,18 @@ Backbone network can be resnet32 for Imbalance cifar10 & cifar100, resnet10 for 
 
 `python train.py --cfg ./config/ina2018.json`
 
+
+## Validation
+
+### CRI+PPW+PPmix
+
+`python eval.py --cfg ./config/....yaml resume /path/ckps/...pth.tar`
+
+### CRI+PPW#
+
+`python eval.py --cfg ./config/....json --resume /path/...pth`
+
+
 ## Results and Models
 
 ### CRI+PPW+PPmix
